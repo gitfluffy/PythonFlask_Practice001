@@ -13,13 +13,12 @@ wsgi_app = app.wsgi_app
 @app.route('/')
 def hello():
     """Renders a sample page."""
-    return "Hello World!"
+    return "Hello Worldaa!"
 
-@app.route('/david')
+@app.route('/david', endpoint='david001')
 def hello():
     """Renders a sample page."""
     return "Hello david!"
-
 
 if __name__ == '__main__':
     import os
