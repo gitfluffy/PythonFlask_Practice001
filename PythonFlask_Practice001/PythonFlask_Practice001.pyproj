@@ -16,7 +16,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>PythonFlask_Practice001</Name>
     <RootNamespace>PythonFlask_Practice001</RootNamespace>
-    <InterpreterId>MSBuild|env_PythonFlask_Practice001|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|envPF|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,10 +33,10 @@
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env_PythonFlask_Practice001\">
-      <Id>env_PythonFlask_Practice001</Id>
+    <Interpreter Include="envPF\">
+      <Id>envPF</Id>
       <Version>3.7</Version>
-      <Description>env_PythonFlask_Practice001 (Python 3.7 (64-bit))</Description>
+      <Description>envPF (Python 3.7 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
